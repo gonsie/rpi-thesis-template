@@ -1,0 +1,45 @@
+%% ROOT FILE
+
+\documentclass[chap]{thesis}
+
+% prevent orphan lines
+\usepackage[all]{nowidow}
+
+%% Some Useful Packages
+\usepackage{url} % pretty urls
+\usepackage{hyperref} % links within the document
+\usepackage{graphicx} % insert graphical files
+
+%% ADD OTHER PACKAGES HERE
+
+% ------------------------
+% Attribution of previously published work
+%
+% Use the after title and before the first sentence of the chapter
+% Example: \blfootnote{This work perviously appeared as: \bibentry{mypaper2015}
+\makeatletter
+\def\blfootnote{\xdef\@thefnmark{}\@footnotetext}
+\makeatother
+\usepackage{bibentry}
+\nobibliography*
+
+% If you have an attribution before your first in-text citation,
+% you should use \nobibentry to ensure in-text citations start at [1]
+% Example: \blfootnote{This work perviously appeared as: \nobibentry{mypaper2015}
+\newcommand{\ignore}[1]{}
+\newcommand{\nobibentry}[1]{{\let\nocite\ignore\bibentry{#1}}}
+% ------------------------
+
+\begin{document}
+
+\include{pages/title}
+\include{pages/ack}
+\include{pages/abstract}
+\include{chapters/intro}
+\include{chapters/background}
+\include{chapters/publication1}
+\include{chapters/conclusions}
+\include{pages/bib}
+%\include{pages/appendix}
+
+\end{document}
