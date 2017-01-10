@@ -2,8 +2,8 @@
 
 This is an template repository for starting your RPI thesis.
 
-## Pre-requite: LaTeX
- 
+## Prerequisite: LaTeX
+
 You should know that LaTeX is a thing and you should be able to generate a LaTex document.
 
 I do this through a GUI.
@@ -50,7 +50,7 @@ See the `bibs/README.md` file for some more tips.
 This repository is ready for you to get started.
 
     thesis/
-     | 
+     |
      |- .gitignore (version control is highly recommended)
      |- README.md  (this file)
      |- thesis.cls (the RPI LaTeX thesis style file)
