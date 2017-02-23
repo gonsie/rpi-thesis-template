@@ -50,40 +50,40 @@ See the `bibs/README.md` file for some more tips.
 This repository is ready for you to get started.
 
     thesis/
-     |
-     |- .gitignore (version control is highly recommended)
-     |- README.md  (this file)
-     |- thesis.cls (the RPI LaTeX thesis style file)
-     |- thesis.tex (your root thesis file)
-     |
-     |- pages/     (short tex pages, to simplify the thesis.tex file)
-     |  |- abstract.tex
-     |  |- ack.tex
-     |  |- title.tex
-     |  |- bib.tex
-     |  |- appendix.tex
-     |
-     |- chapters/  (main content for your thesis)
-     |  |- publication1.tex (this file includes things in /publication1)
-     |  |- publication1/ (folder containing files from another publication)
-     |  |  |- introduction.tex
-     |  |  |- experiment.tex
-     |  |  |- results.tex
-     |  |  |- conclusions.tex
-     |  |
-     |  |- intro.tex
-     |  |- background.tex
-     |  |- conclusions.tex
-     |
-     |- figs/ (all images and inserts (maybe sort into sub-folders?))
-     |  |- cdp.gv  (graph viz file)
-     |  |- cdp.pdf (image file)
-     |  |- cdp.tex (contains all the TeX code for including the image)
-     |  |- ...
-     |
-     |- bib/ (bibtex style file, bib files)
-     |  |- IEEEabrv.bib  (abbreviations of IEEE publications)
-     |  |- IEEEfull.bib  (full names of IEEE publications)
-     |  |- IEEEtran.bst  (citation ordered bibliography)
-     |  |- IEEEtranS.bst (author name ordered bibliography)
-     |  |- simulation.bib (my bib entry database)
+      |
+      |- .gitignore (version control is highly recommended)
+      |- README.md  (this file)
+      |- thesis.cls (the RPI LaTeX thesis style file)
+      |- thesis.tex (your root thesis file)
+      |
+      |- pages/     (short tex pages, to simplify the thesis.tex file)
+      |   |- abstract.tex
+      |   |- ack.tex
+      |   |- title.tex
+      |   |- bib.tex
+      |   `- appendix.tex
+      |
+      |- chapters/  (main content for your thesis)
+      |   |- publication1.tex (this file includes things in /publication1)
+      |   |- publication1/ (folder containing files from another publication)
+      |   |   |- introduction.tex
+      |   |   |- experiment.tex
+      |   |   |- results.tex
+      |   |   `- conclusions.tex
+      |   |
+      |   |- intro.tex
+      |   |- background.tex
+      |   `- conclusions.tex
+      |
+      |- figs/ (all images and inserts (maybe sort into sub-folders?))
+      |   |- cdp.gv  (graph viz file)
+      |   |- cdp.pdf (image file)
+      |   |- cdp.tex (contains all the TeX code for including the image)
+      |   `- ...
+      |
+      `- bib/ (bibtex style file, bib files)
+          |- IEEEabrv.bib  (abbreviations of IEEE publications)
+          |- IEEEfull.bib  (full names of IEEE publications)
+          |- IEEEtran.bst  (citation ordered bibliography)
+          |- IEEEtranS.bst (author name ordered bibliography)
+          `- simulation.bib (my bib entry database)
