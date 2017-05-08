@@ -5,8 +5,10 @@ The bibtex files (`.bib`) are databases of references.
 
 ## Warnings
 
-If you're having bib problems, try deleting all URLs.
+If you're having bib problems, try deleting all URLs (even if using the url package).
 Sometimes this helps.
+
+Also, make sure percent signs are escaped: `title = {{Give 110\%}},`
 
 ## IEEE Bibliographies
 
